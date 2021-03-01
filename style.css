@@ -11,3 +11,30 @@ body {
     width: 100vw;
     height: 100vh;
 }
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+.btn-grid {
+    display: grid;
+    gap: 10px;
+    margin: 20px 0;
+}
+.btn {
+    border: 1px solid lightsalmon;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: black;
+}
+.btn:hover {
+    border-color: white;
+}
+.start-btn, .next-btn, .submit-btn {
+    font-size: large;
+    font-weight: bold;
+    padding: 10px 60px;
+}
