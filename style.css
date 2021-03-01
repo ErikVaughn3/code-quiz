@@ -38,3 +38,16 @@ body {
     font-weight: bold;
     padding: 10px 60px;
 }
+.choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hide {
+    display: none;
+}
+.time {
+    background-color: orangered;
+    font-weight: bold;
+    border: 1px black;
+}
