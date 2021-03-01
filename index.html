@@ -10,15 +10,25 @@
 </head>
 
 <body>
-    <div id="questionsBox" class="hide">
-        <div id="question">Question</div>
-        <div>Time Remaining <span id="time">2:00</span></div>
-        <div>Score<span id="score"></span></div>
-        <div id="answer-btns" class="btn-grid">
-            <button class="btn">Answer 1</button>
-            <button class="btn">Answer 2</button>
-            <button class="btn">Answer 3</button>
-            <button class="btn">Answer 4</button>
+    <div class="container">
+        <div id="questionsBox" class="hide">
+            <div id="question">Question</div>
+            <div>Time Remaining <span id="time">2:00</span></div>
+            <div>Score<span id="score"></span></div>
+            <div id="answer-btns" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div id="options">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next Question</button>
+            <button id="submit-btn" class="submit-btn btn hide">Submit</button>
         </div>
     </div>
 </body>
+
+<script src="script.js"></script>
+</html>
